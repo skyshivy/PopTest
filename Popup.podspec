@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'Popup'
+  spec.name         = 'ProtoFramework'
   spec.version      = '0.1.0'
   spec.summary      = 'popup is a framework to present a controller'
   spec.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform      = :ios
   spec.source       = { :git => 'https://github.com/skyshivy/PopTest.git', :tag => spec.version }
 
-  spec.vendored_frameworks = 'Popup.xcframework'
+  spec.vendored_frameworks = 'ProtoFramework.xcframework'
 spec.exclude_files = "Classes/Exclude"
 
 end
