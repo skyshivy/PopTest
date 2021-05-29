@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'Popup'
-  spec.version      = '0.1.0'
+  spec.version      = '0.1.1'
   spec.summary      = 'popup is a framework to present a controller'
   spec.description  = <<-DESC
 	popup is a framework to present a controller import and use
