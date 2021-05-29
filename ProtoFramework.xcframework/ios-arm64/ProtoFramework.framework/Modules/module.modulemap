@@ -1,0 +1,11 @@
+framework module ProtoFramework {
+  umbrella header "ProtoFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ProtoFramework.Swift {
+    header "ProtoFramework-Swift.h"
+    requires objc
+}
