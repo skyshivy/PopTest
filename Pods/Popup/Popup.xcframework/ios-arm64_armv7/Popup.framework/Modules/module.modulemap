@@ -1,4 +1,0 @@
-framework module Popup {
-  header "Popup-Swift.h"
-  requires objc
-}
